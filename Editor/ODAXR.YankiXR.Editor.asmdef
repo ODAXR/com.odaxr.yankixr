@@ -1,0 +1,11 @@
+{
+  "name": "ODAXR.YankiXR.Editor",
+  "rootNamespace": "ODAXR.YankiXR.Tool",
+  "references": [
+    "ODAXR.YankiXR.Runtime"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "autoReferenced": true
+}

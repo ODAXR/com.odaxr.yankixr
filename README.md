@@ -9,6 +9,8 @@ An obstacle-based audio occlusion package for Unity. It bakes the acoustic effec
 - Approximate sound propagation through openings and around obstacles.
 - Baked data lookups without runtime raycasts.
 
+<img width="842" height="434" alt="simulation" src="https://github.com/user-attachments/assets/762a945a-f49e-403f-9472-004bda808d65" />
+
 ## Installation
 
 This package targets **Unity 6000.3**. Download the repository, then use **Install package from disk** in Unity Package Manager and select the `package.json` file in this folder.
@@ -22,6 +24,11 @@ This package targets **Unity 6000.3**. Download the repository, then use **Insta
 5. Add `YankiBridge` to your audio source and assign `Grid Data`, `Target Audio Source`, and `Listener Transform`. Keep the source and listener inside the grid during playback.
 
 Rebake after changing obstacles or acoustic materials. To calculate paths through openings, the grid must cover those routes and its cells must be smaller than the openings.
+
+## Performance
+
+<img width="1178" height="646" alt="yanki-performance" src="https://github.com/user-attachments/assets/57728972-3ffc-4061-88d5-634df2b2d306" />
+
 
 ## License
 
